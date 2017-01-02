@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you 
+need to do it?
+---
+I need this to make git aware that I want to track this folder
+location with all the files contained in it.
+
+----------
+
+How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+---
+the staging area is a temporary buffer memory. it contains 
+files we added with git add, but aren't yet committed.
+the working directory is where our current files are saved, 
+all changes made to the files are seen here. the repository
+will mirror the changes made in the working directory, but only
+if we tell it to do so via git commit.
+so the order in actuality of the three concepts would be
+1. working directory (contains all files up to date)
+2. staging area (when we add files they are here)
+3. repository (when we commit changes, they will be here)
