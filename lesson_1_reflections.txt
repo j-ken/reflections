@@ -1,0 +1,79 @@
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+---
+The diff command in Mac OS Terminal works like this:
+diff file_01.txt file_02.txt
+It displays each section of the two files that differ.
+At the very beginning of each line there are + and -
+characters, indicating which lines are different in 
+the two files.
+It's still quite tedious working like this though!
+
+----------
+
+How could having easy access to the entire history 
+of a file make you a more efficient programmer in 
+the long term?
+---
+I could optimize my workflow by reviewing the file 
+history. Or I can restore old versions in case some
+functionality has worked better in that version.
+
+----------
+
+What do you think are the pros and cons of manually 
+choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google 
+Docs does?
+---
+Pro:
+- Only I can make senseful judgement on when to file
+  a logical commit
+- I can set up my number of commits to my personal
+  liking.
+Con:
+- I might forget to commit and will have too few 
+  commits to make sense of in the commit history
+
+----------
+
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+---
+Git was clearly designed for programming work, which
+involves whole projects with multiple files and folders.
+Google Docs was probably made with letters and excel
+sheets in an office environment in mind, which 
+usually don't depend on other files so much.
+
+----------
+
+How can you use the commands git log and git diff to 
+view the history of files?
+---
+git log displays all the commits made in a list, so 
+one can easily review the commit history with the commit
+comments.
+git diff is useful when comparing two commits to each other.
+
+----------
+
+How might using version control make you more confident 
+to make changes that could break something?
+---
+Because I can revert to an older status with no mistakes
+at any time.
+
+----------
+
+Now that you have your workspace set up, what do you want 
+to try using Git for?
+---
+Working on the aufgetischt project with beni.
+
+
+
+
+
+
