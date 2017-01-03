@@ -19,3 +19,47 @@ so the order in actuality of the three concepts would be
 1. working directory (contains all files up to date)
 2. staging area (when we add files they are here)
 3. repository (when we commit changes, they will be here)
+
+----------
+
+How can you use the staging area to make sure you have one 
+commit per logical change?
+---
+with the git diff --staged i can make sure i only added on
+logical change to the staging area. if so, i can add that 
+change with git commit and then proceed the same way with
+the next logical change.
+
+----------
+
+What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+---
+If I want to try out a new feature, I can explore this on 
+a branch without changing the master and having to revert 
+to very old commits in case the experiment dind't work.
+
+----------
+
+How do the diagrams help you visualize the branch structure?
+---
+Because they show the history and the parents of all branches,
+which Terminal can't do as well.
+
+----------
+
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+---
+Merging new features into the master branch.
+
+----------
+
+What are the pros and cons of Git’s automatic merging vs. 
+always doing merges manually?
+---
+probably in most cases git automatic merging will do the 
+correct thing and merge in a way that makes sens. so it
+saves us time.
+on the other hand we don't have control over what git did.
+so manual merging is probably safer.
